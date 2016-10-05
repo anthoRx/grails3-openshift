@@ -67,5 +67,5 @@ springBoot {
 }
 
 task stage {
-  dependsOn clean, assemble
+  dependsOn assemble
 }
