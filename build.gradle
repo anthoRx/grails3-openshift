@@ -65,3 +65,7 @@ assets {
 springBoot {
     executable = true
 }
+
+task stage {
+  dependsOn clean, assemble
+}
