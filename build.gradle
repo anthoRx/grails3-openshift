@@ -66,10 +66,6 @@ springBoot {
     executable = true
 }
 
-task stage {
-  dependsOn assemble
-}
-
 jar {
     baseName = 'grails3-openshift'
     version = '0.1'
