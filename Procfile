@@ -1,1 +1,1 @@
-web: java -jar build/libs/grails3-openshift-0.1.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/grails3-openshift-0.1.jar
