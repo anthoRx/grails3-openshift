@@ -1,0 +1,1 @@
+web: java -jar build/libs/grails3-openshift-0.1.jar
