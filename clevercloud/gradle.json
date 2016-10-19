@@ -1,0 +1,10 @@
+{
+	"build": {
+		"type": "gradle",
+		"goal": "assemble"
+	},
+	"deploy": {
+		"jarName": "build/libs/grails3-openshift-0.1.jar"
+	}
+}
+		    
